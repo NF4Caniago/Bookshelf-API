@@ -1,0 +1,11 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "project akhir \"Belajar Membuat Aplikasi Back-End untuk Pemula\" AfifIlham Caniago",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AfifNF4",
+  "license": "ISC"
+}
