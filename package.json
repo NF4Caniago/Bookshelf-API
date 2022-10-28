@@ -4,8 +4,18 @@
   "description": "project akhir \"Belajar Membuat Aplikasi Back-End untuk Pemula\" AfifIlham Caniago",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./"
   },
   "author": "AfifNF4",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^3.3.4"
+  }
 }
