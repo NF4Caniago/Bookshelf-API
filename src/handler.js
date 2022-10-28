@@ -58,11 +58,9 @@ const getAllBooks = (request, h) => {
             (b) => b.name.toLowerCase().includes(name.toLowerCase()));
     }
     if (reading == 1 || reading == 0) {
-        console.log('reading');
         filterBooks = filterBooks.filter((b) => b.reading == reading);
     }
     if (finished == 1 || finished == 0) {
-        console.log('finished');
         filterBooks = filterBooks.filter((b) => b.finished == finished);
     }
     const resBooks = filterBooks.map(({id, name, publisher}) => (
